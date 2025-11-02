@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Registration Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Student Registration Form</h2>
+    <form action="#" method="post">
+      <div class="form-group">
+        <label for="studentid">Student ID</label>
+        <input type="text" id="studentid" name="studentid" placeholder="e.g. S2025-001" required>
+      </div>
+
+      <div class="form-group">
+        <label for="fullname">Full Name</label>
+        <input type="text" id="fullname" name="fullname" placeholder="Your full name" required>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" placeholder="name@example.com" required>
+      </div>
+
+      <div class="form-group">
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phone" placeholder="+85512345678">
+      </div>
+
+      <div class="form-group">
+        <label for="dob">Date of Birth</label>
+        <input type="date" id="dob" name="dob">
+      </div>
+
+      <div class="form-group">
+        <label for="gender">Gender</label>
+        <select id="gender" name="gender">
+          <option value="">-- Select Gender --</option>
+          <option>Male</option>
+          <option>Female</option>
+          <option>Other</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="address">Address</label>
+        <textarea id="address" name="address" rows="3" placeholder="Street, City, Province"></textarea>
+      </div>
+
+      <div class="form-group">
+        <label for="course">Course / Program</label>
+        <input type="text" id="course" name="course" placeholder="e.g. Computer Science">
+      </div>
+
+      <div class="form-group">
+        <label for="year">Year / Grade</label>
+        <input type="text" id="year" name="year" placeholder="e.g. Year 2">
+      </div>
+
+      <button type="submit">Register Student</button>
+    </form>
+  </div>
+</body>
+</html>
